@@ -29,7 +29,7 @@ public class DashBoard {
 			
 	    }
 	
-	public void addContact(String Name , String company) {
+	    public void addContact(String Name , String company) {
 		Random rnd = new Random();
 		
 		FullName.sendKeys(Name+rnd.nextInt(999));

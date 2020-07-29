@@ -4,7 +4,7 @@
           <parameter name="company" value="techfios" />    //Values to be passed
           <parameter name="username" value="techfiosdemo@gmail.com" />
           <parameter name="password" value="abc123" />
-          <parameter name="account" value="Robert" />
+          <parameter name="Name" value="Robert" />
           <parameter name="company_name" value="QA" />
           
           

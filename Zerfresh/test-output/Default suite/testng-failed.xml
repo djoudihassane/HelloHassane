@@ -5,8 +5,9 @@
     <classes>
       <class name="Test.UserOpen">
         <methods>
-          <include name="openbrowser"/>
-          <include name="validusername"/>
+          <include name="Open"/>
+          <include name="dasshboard"/>
+          <include name="OpenBrowser"/>
         </methods>
       </class> <!-- Test.UserOpen -->
     </classes>

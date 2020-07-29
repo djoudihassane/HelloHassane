@@ -5,13 +5,14 @@
     <parameter name="password" value="abc123"/>
     <parameter name="company_name" value="QA"/>
     <parameter name="company" value="techfios"/>
-    <parameter name="account" value="Robert"/>
     <parameter name="username" value="techfiosdemo@gmail.com"/>
+    <parameter name="Name" value="Robert"/>
     <classes>
       <class name="Test.UserOpen">
         <methods>
-          <include name="Open"/>
+          <include name="dasshboard" invocation-numbers="0"/>
           <include name="OpenBrowser"/>
+          <include name="close"/>
         </methods>
       </class> <!-- Test.UserOpen -->
     </classes>

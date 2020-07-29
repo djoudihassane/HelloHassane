@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="regression" duration-ms="6262" started-at="2020-07-23T00:31:46 CDT" finished-at="2020-07-23T00:31:53 CDT">
+  <suite name="regression" duration-ms="15536" started-at="2020-07-23T18:26:58 CDT" finished-at="2020-07-23T18:27:13 CDT">
     <groups>
     </groups>
-    <test name="UserOpen" duration-ms="6262" started-at="2020-07-23T00:31:46 CDT" finished-at="2020-07-23T00:31:53 CDT">
+    <test name="UserOpen" duration-ms="15536" started-at="2020-07-23T18:26:58 CDT" finished-at="2020-07-23T18:27:13 CDT">
       <class name="Test.UserOpen">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:Test.UserOpen@43814d18]" name="OpenBrowser" is-config="true" duration-ms="3953" started-at="2020-07-23T00:31:46 CDT" finished-at="2020-07-23T00:31:50 CDT">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:Test.UserOpen@5c5a1b69]" name="OpenBrowser" is-config="true" duration-ms="4661" started-at="2020-07-23T18:26:58 CDT" finished-at="2020-07-23T18:27:02 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="Open(java.lang.String, java.lang.String)[pri:0, instance:Test.UserOpen@43814d18]" name="Open" duration-ms="2259" started-at="2020-07-23T00:31:50 CDT" finished-at="2020-07-23T00:31:53 CDT">
+        <test-method status="PASS" signature="Open(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Test.UserOpen@5c5a1b69]" name="Open" duration-ms="10189" started-at="2020-07-23T18:27:02 CDT" finished-at="2020-07-23T18:27:12 CDT">
           <params>
             <param index="0">
               <value>
@@ -23,10 +23,24 @@
                 <![CDATA[abc123]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[Robert]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Open -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Test.UserOpen@5c5a1b69]" name="close" is-config="true" duration-ms="650" started-at="2020-07-23T18:27:12 CDT" finished-at="2020-07-23T18:27:13 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
       </class> <!-- Test.UserOpen -->
     </test> <!-- UserOpen -->
   </suite> <!-- regression -->
